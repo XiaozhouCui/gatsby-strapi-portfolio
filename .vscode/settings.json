@@ -1,0 +1,7 @@
+{
+    "docker.commands.attach": null,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
