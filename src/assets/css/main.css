@@ -471,14 +471,14 @@ Hero
   .hero-img {
     display: block;
     grid-row: 1/1;
-    grid-column: 7/-1;
+    grid-column: 6/-1;
   }
   .hero-img-svg {
     width: 100%;
     position: relative;
     display: block;
     grid-row: 1/1;
-    grid-column: 7/-1;
+    grid-column: 6/-1;
   }
 }
 @media screen and (min-width: 1170px) {

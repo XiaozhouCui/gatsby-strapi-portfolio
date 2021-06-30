@@ -19,14 +19,13 @@ const About = ({ data }) => {
           <article className='about-text'>
             <Title title={title} />
             <p>
-              I am a full stack developer and AWS Certified Solutions Architec,
-              with 3 years of commercial experience.
+              I am a full stack developer and AWS Certified Solutions Architec -
+              Associate, with 3 years of commercial experience.
             </p>
             <p>
               My recent projects mainly focus on React and Node.js, I am also
-              familiar with .NET and Angular. I have a strong passion in web
-              development, and I spent most of my spare time learning new
-              technologies and industry best practices.
+              familiar with .NET and Angular. I spent most of my spare time
+              learning new technologies and industry best practices.
             </p>
             <p>
               As a career changer, I had worked in the oil and gas industry for

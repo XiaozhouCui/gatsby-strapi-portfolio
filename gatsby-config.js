@@ -7,6 +7,15 @@
 module.exports = {
   /* Your site config here */
 
+  siteMetadata: {
+    title: `Joe's Portfolio`,
+    description: `Awesome portfolio built with Gatsby and Strapi`,
+    titleTemplate: `%s | Joe's Portfolio`,
+    url: `https://joe-portfolio-gatsby.netlify.app`,
+    twitterUsername: `@Joe_Cui`,
+    image: `/mainImg.png`,
+  },
+
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
