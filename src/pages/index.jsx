@@ -26,7 +26,10 @@ const IndexPage = ({ data }) => {
 // query response will be passed to the above IndexPage component as { data } props
 export const query = graphql`
   {
-    allStrapiProjects(filter: { featured: { eq: true } }) {
+    allStrapiProjects(
+      filter: { featured: { eq: true } }
+      sort: { fields: created_at, order: DESC }
+    ) {
       nodes {
         description
         featured
