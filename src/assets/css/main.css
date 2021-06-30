@@ -852,8 +852,10 @@ About Page
   padding: 7rem 0;
 }
 .about-img {
-  margin-bottom: 2rem;
-  height: 25rem;
+  width: 70%;
+  border-radius: 50%;
+  margin: 0 auto 2rem;
+  display: block;
 }
 .about-img-svg {
   margin-bottom: 2rem;
