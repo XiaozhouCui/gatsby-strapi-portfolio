@@ -698,7 +698,9 @@ Projects
   color: var(--clr-primary-5);
 }
 .project-desc {
-  word-spacing: 15px;
+  word-spacing: normal;
+  line-height: 1.5;
+  text-align: justify;
   color: var(--clr-grey-3);
 }
 .project-stack {
@@ -716,8 +718,8 @@ Projects
   letter-spacing: 2px;
   font-size: 0.85rem;
 }
-.about-stack span {
-  margin-top: 0.5rem;
+.about-stack {
+  margin-top: 2.5rem;
 }
 .project-icon {
   color: var(--clr-primary-5);
