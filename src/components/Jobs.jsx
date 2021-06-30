@@ -20,6 +20,8 @@ const query = graphql`
   }
 `
 
+// job data can be accessed at http://localhost:1337/jobs, need public permission in Strapi
+
 const Jobs = () => {
   const data = useStaticQuery(query)
   const {
