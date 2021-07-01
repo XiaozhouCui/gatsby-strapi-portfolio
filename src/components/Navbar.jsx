@@ -8,7 +8,8 @@ const Navbar = ({toggleSidebar}) => {
     <nav className='navbar'>
       <div className='nav-center'>
         <div className='nav-header'>
-          <img src={logo} alt='web dev' />
+          {/* <img src={logo} alt='web dev' /> */}
+          <h2 className="nav-title">Joe's <span>Portfolio</span></h2>
           <button type='button' className='toggle-btn' onClick={toggleSidebar}>
             <FaAlignRight />
           </button>
