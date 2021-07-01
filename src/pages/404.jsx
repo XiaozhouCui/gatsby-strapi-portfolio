@@ -5,7 +5,7 @@ import Seo from '../components/Seo'
 const Error = () => {
   return (
     <>
-      {/* <Seo title="Not Found" /> */}
+      <Seo title="Not Found" />
       <main className='error-page'>
         <div className='error-container'>
           <h1>oops it's a dead end</h1>

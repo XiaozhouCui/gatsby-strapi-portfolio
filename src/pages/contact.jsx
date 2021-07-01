@@ -4,11 +4,12 @@ import Seo from '../components/Seo'
 const contact = () => {
   return (
     <>
-      {/* <Seo title='Contact' /> */}
+      <Seo title='Contact' />
       <section className='contact-page'>
         <article className='contact-form'>
           <h3>get in touch</h3>
-          <form>
+          {/* The form will be submitted to Formspree */}
+          <form action="https://formspree.io/f/xoqpybbp" method="POST">
             <div className='form-group'>
               <input
                 type='text'
