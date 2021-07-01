@@ -677,7 +677,7 @@ Projects
   width: 100%;
   height: 100%;
   background: linear-gradient(to bottom right, var(--clr-primary-6), #222);
-  opacity: 0.75;
+  opacity: 0.5;
   transition: var(--transition);
 }
 .project:hover .project-img::after {
@@ -732,8 +732,8 @@ Projects
 }
 .project-icon {
   color: var(--clr-primary-5);
-  font-size: 1.25rem;
-  margin-right: 0.5rem;
+  font-size: 2rem;
+  margin-right: 1rem;
   transition: var(--transition);
 }
 .project-icon:hover {

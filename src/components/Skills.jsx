@@ -1,12 +1,13 @@
 import React from 'react'
 import Title from './Title'
-import services from '../constants/services'
-const Services = () => {
+import skills from '../constants/skills'
+
+const Skills = () => {
   return (
     <section className='section bg-grey'>
-      <Title title='services' />
+      <Title title='skills' />
       <div className='section-center services-center'>
-        {services.map(service => {
+        {skills.map(service => {
           const { id, icon, title, text } = service
           return (
             <article key={id} className='service'>
@@ -22,4 +23,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Skills

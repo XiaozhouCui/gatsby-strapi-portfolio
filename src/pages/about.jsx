@@ -5,7 +5,8 @@ import Seo from '../components/Seo'
 
 const About = ({ data }) => {
   const {
-    strapiAbout: { info, stack, title, image },
+    // strapiAbout: { info, stack, title, image },
+    strapiAbout: { stack, title, image },
   } = data
   return (
     <>
@@ -25,7 +26,7 @@ const About = ({ data }) => {
             </p>
             <p>
               My recent projects mainly focus on React and Node.js, I am also
-              familiar with .NET and Angular. I spent most of my spare time
+              familiar with .NET and Angular. I spend most of my spare time
               learning new technologies and industry best practices.
             </p>
             <p>

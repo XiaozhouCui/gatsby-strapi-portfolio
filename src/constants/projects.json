@@ -1,115 +1,904 @@
 [
   {
-    "title": "JBook",
-    "subtitle": "React, TypeScript, Redux",
-    "image": "jbook.jpg",
-    "link": "https://jbook-joe.netlify.app",
-    "repo": "https://github.com/XiaozhouCui/jbook",
-    "description": "This is a browser based interactive coding environment, like CodePen. In the code editing fields, you can write JavaScript and JSX. Your code will be compiled, bundled and then rendered in the preview field. You can also add notes using markdown syntax."
-  },
-  {
-    "title": "Auction House",
-    "subtitle": "Serverless, Lambda, API Gateway, S3, DynamoDB, SQS, SES, React",
-    "image": "auction.jpg",
-    "link": "https://nifty-mclean-1342b9.netlify.app",
-    "repo": "https://github.com/XiaozhouCui/serverless-auction",
-    "description": "This serverless app is built with AWS CloudFormation. Sellers can create an auction and upload pictures, bidders can place bids by adding price. Once an auction is closed, emails will be sent to the seller and the winning bidder."
-  },
-  {
-    "title": "ProShop eCommerce",
-    "subtitle": "MERN stacks and Redux",
-    "image": "proshop.jpg",
-    "link": "https://proshop888.herokuapp.com/",
-    "repo": "https://github.com/XiaozhouCui/proshop",
-    "description": "A customized eCommerce web app. It has full featured shopping cart, product reviews and rating, PayPal / credit card integration,  user profile with orders, admin dashboard and image upload. Check <a target=\"_blank\" href=\"https://github.com/XiaozhouCui/proshop/blob/master/readme.md\">Readme</a> on GitHub."
-  },
-  {
-    "title": "Natours",
-    "subtitle": "Node, Express, MongoDB, Pug, Stripe, Sendgrid, Mapbox, JWT",
-    "image": "natours.jpg",
-    "link": "https://natours-joe.herokuapp.com/",
-    "repo": "https://github.com/XiaozhouCui/natours",
-    "description": "This backend Node.js project has a MVC structure. It provides dozens of API endpoints to perform various operations. Once logged in, users can upload photos, book new tours, pay with credit cards, and rank their booked tours."
-  },
-  {
-    "title": "My Forum",
-    "subtitle": "Next.js, Apollo, GraphQL, MERN",
-    "image": "portfolio.jpg",
-    "link": "https://next-gql-portfolio.herokuapp.com/",
-    "repo": "https://github.com/XiaozhouCui/nextjs-portfolio",
-    "description": "This full stack web app is my personal forum. You can login and leave a message in the forum, and reply to other user's message. Next.js is used for SSR and SSG. Apollo is used to handle GraphQL queries on frontend and backend."
-  },
-  {
-    "title": "My Messages",
-    "subtitle": "Angular, Node.js, Express, MongoDB, TypeScript, RxJS, JWT",
-    "image": "mymessages.jpg",
-    "link": "https://mymessages-mean.herokuapp.com/",
-    "repo": "https://github.com/XiaozhouCui/mean-mymessages",
-    "description": "This is a simple MEAN stack project. Users can register and login, and then post a message and upload an image. Only the post creators are authorised to edit or delete their own posts. Please note the uploaded image will not survive after the free Heroku host restarts."
-  },
-  {
-    "title": "Email Client",
-    "subtitle": "Angular, TypeScript, RxJS, OAuth",
-    "image": "emailclient.jpg",
-    "link": "https://emailclient-peach.vercel.app/",
-    "repo": "https://github.com/XiaozhouCui/emailclient",
-    "description": "This Angular project provides the user interface of an email client. By calling 3rd party API endpoints, you can register new accounts and login. Once authenticated, you can send, receive and reply emails using your newly registered email address."
-  },
-  {
-    "title": "Vidly",
-    "subtitle": "MERN stacks",
-    "image": "vidly.jpg",
-    "link": "https://vidly-sooty.vercel.app/",
-    "repo": "https://github.com/XiaozhouCui/vidly",
-    "repo-b": "https://github.com/XiaozhouCui/vidly-node",
-    "description": "This video rental app is a decoupled frontend and backend project. Frontend was built with React and deployed on Vercel; backend was built with Node.js, Express and MongoDB, and was deployed on Heroku."
-  },
-  {
-    "title": "Jammming",
-    "subtitle": "React, Spotify API",
-    "image": "jammming.jpg",
-    "link": "https://www.joesdemosite.com/jammming/",
-    "repo": "https://github.com/XiaozhouCui/jammming",
-    "description": "This is a single page music application built with React. It can log you into your Spotify account by calling its API. You can sarch the Spotify library, create a custom playlist, and then save the playlist to your Spotify account"
-  },
-  {
-    "title": "JR Academy Official Website",
-    "subtitle": "MERN stacks",
-    "image": "jr.jpg",
-    "link": "https://jiangren.com.au/",
-    "repo": "",
-    "description": "This Chinese version landing page was built with Keystone, MongoDB and PUG. Its user dashboard was built with React and Redux. My duty as an agile team member was to add new features to the dashboard user interface."
-  },
-  {
-    "title": "JR Talent",
-    "subtitle": "MERN stacks",
-    "image": "jrtalent.jpg",
-    "link": "http://jrtalent.com.au/",
-    "repo": "",
-    "description": "I was a team member of this Agile project. This large job-search site is built with Node.js, Koa, MongoDB, PUG, and SASS. I was assigned several tasks varied from designing search bars to building employers database."
-  },
-  {
-    "title": "Swim School",
-    "subtitle": "PHP API, HTML + CSS + JavaScript",
-    "image": "swimschool.jpg",
-    "link": "https://www.joesdemosite.com/swimschool/index.html#homepage",
-    "repo": "https://github.com/XiaozhouCui/swimschool",
-    "description": "This LAMP web app provides an online booking system for a swim school for babies. Its backend was built into REST APIs using plain PHP, while the frontend SPA uses vanilla JavaScript to call the API and render the contents."
-  },
-  {
-    "title": "My Books",
-    "subtitle": "PHP MVC",
-    "image": "books.jpg",
-    "link": "https://www.joesdemosite.com/mybooks/index.php",
-    "repo": "https://github.com/XiaozhouCui/books",
-    "description": "This is the admin page for a book management website. Based on MySQL, admin can add, edit and delete books as well as other users."
-  },
-  {
+    "id": 10,
     "title": "SafeTec Pacific",
-    "subtitle": "PHP MVC",
-    "image": "safetec.jpg",
-    "link": "https://www.joesdemosite.com/wdv/index.php",
-    "repo": "https://github.com/XiaozhouCui/WDV",
-    "description": "This MySQL based learning management system (LMS) is built from scratch with PHP and AJAX. For functionalities please refer to the readme file in my GitHub repository."
+    "description": "This MySQL based learning management system (LMS) is built from scratch with PHP and AJAX. For functionalities please refer to the readme file in my GitHub repository.",
+    "github": "https://github.com/XiaozhouCui/WDV",
+    "url": "",
+    "featured": false,
+    "slug": "safetec-pacific",
+    "published_at": "2021-02-02T10:58:43.551Z",
+    "created_at": "2021-02-02T10:56:51.896Z",
+    "updated_at": "2021-07-01T05:41:49.782Z",
+    "stack": [
+      { "id": 59, "title": "PHP" },
+      { "id": 60, "title": "MySQL" },
+      { "id": 61, "title": "MVC" },
+      { "id": 62, "title": "jQuery" }
+    ],
+    "image": {
+      "id": 16,
+      "name": "safetec.jpg",
+      "alternativeText": "",
+      "caption": "",
+      "width": 640,
+      "height": 427,
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_safetec.jpg",
+          "hash": "thumbnail_safetec_25da500717",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 234,
+          "height": 156,
+          "size": 10.66,
+          "path": null,
+          "url": "/uploads/thumbnail_safetec_25da500717.jpg"
+        },
+        "small": {
+          "name": "small_safetec.jpg",
+          "hash": "small_safetec_25da500717",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 334,
+          "size": 37.08,
+          "path": null,
+          "url": "/uploads/small_safetec_25da500717.jpg"
+        }
+      },
+      "hash": "safetec_25da500717",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "size": 55.04,
+      "url": "/uploads/safetec_25da500717.jpg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2021-02-02T10:58:35.711Z",
+      "updated_at": "2021-02-02T10:58:35.727Z"
+    }
+  },
+  {
+    "id": 11,
+    "title": "My Books",
+    "description": "This is the admin page for a book management website. Based on MySQL, admin can add, edit and delete books as well as other users.",
+    "github": "https://github.com/XiaozhouCui/books",
+    "url": "",
+    "featured": false,
+    "slug": "my-books",
+    "published_at": "2021-02-02T11:02:06.316Z",
+    "created_at": "2021-02-02T11:02:04.657Z",
+    "updated_at": "2021-07-01T06:55:06.186Z",
+    "stack": [
+      { "id": 63, "title": "PHP" },
+      { "id": 64, "title": "MVC" },
+      { "id": 65, "title": "MySQL" }
+    ],
+    "image": {
+      "id": 15,
+      "name": "books.jpg",
+      "alternativeText": "",
+      "caption": "",
+      "width": 640,
+      "height": 427,
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_books.jpg",
+          "hash": "thumbnail_books_df53529cb5",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 234,
+          "height": 156,
+          "size": 6.95,
+          "path": null,
+          "url": "/uploads/thumbnail_books_df53529cb5.jpg"
+        },
+        "small": {
+          "name": "small_books.jpg",
+          "hash": "small_books_df53529cb5",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 334,
+          "size": 21.22,
+          "path": null,
+          "url": "/uploads/small_books_df53529cb5.jpg"
+        }
+      },
+      "hash": "books_df53529cb5",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "size": 31.04,
+      "url": "/uploads/books_df53529cb5.jpg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2021-01-14T11:50:58.925Z",
+      "updated_at": "2021-01-14T11:50:58.942Z"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Swim School",
+    "description": "This LAMP web app provides an online booking system for a swim school for babies. Its backend was built into REST APIs using plain PHP, while the frontend SPA uses jQuery and vanilla JavaScript to call the API and render the contents.",
+    "github": "https://github.com/XiaozhouCui/swimschool",
+    "url": "",
+    "featured": false,
+    "slug": "swim-school",
+    "published_at": "2021-02-02T11:03:43.652Z",
+    "created_at": "2021-02-02T11:02:23.139Z",
+    "updated_at": "2021-07-01T05:46:17.126Z",
+    "stack": [
+      { "id": 66, "title": "PHP" },
+      { "id": 68, "title": "REST API" },
+      { "id": 69, "title": "MySQL" },
+      { "id": 70, "title": "Materialize" },
+      { "id": 67, "title": "jQuery" }
+    ],
+    "image": {
+      "id": 14,
+      "name": "swimschool.jpg",
+      "alternativeText": "",
+      "caption": "",
+      "width": 600,
+      "height": 315,
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_swimschool.jpg",
+          "hash": "thumbnail_swimschool_bce03abeea",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 245,
+          "height": 129,
+          "size": 9.83,
+          "path": null,
+          "url": "/uploads/thumbnail_swimschool_bce03abeea.jpg"
+        },
+        "small": {
+          "name": "small_swimschool.jpg",
+          "hash": "small_swimschool_bce03abeea",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 263,
+          "size": 34.24,
+          "path": null,
+          "url": "/uploads/small_swimschool_bce03abeea.jpg"
+        }
+      },
+      "hash": "swimschool_bce03abeea",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "size": 48.27,
+      "url": "/uploads/swimschool_bce03abeea.jpg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2021-01-14T11:44:48.467Z",
+      "updated_at": "2021-01-14T11:44:48.484Z"
+    }
+  },
+  {
+    "id": 13,
+    "title": "Jammming",
+    "description": "This is a single page music application built with React. It can log you into your Spotify account by calling its API. You can sarch the Spotify library, create a custom playlist, and then save the playlist to your Spotify account",
+    "github": "https://github.com/XiaozhouCui/jammming",
+    "url": "",
+    "featured": false,
+    "slug": "jammming",
+    "published_at": "2021-02-02T11:05:24.884Z",
+    "created_at": "2021-02-02T11:05:23.586Z",
+    "updated_at": "2021-06-30T06:51:13.871Z",
+    "stack": [
+      { "id": 71, "title": "React" },
+      { "id": 72, "title": "Spotify API" }
+    ],
+    "image": {
+      "id": 13,
+      "name": "jammming.jpg",
+      "alternativeText": "",
+      "caption": "",
+      "width": 640,
+      "height": 434,
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_jammming.jpg",
+          "hash": "thumbnail_jammming_fe0f4a3051",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 230,
+          "height": 156,
+          "size": 5.76,
+          "path": null,
+          "url": "/uploads/thumbnail_jammming_fe0f4a3051.jpg"
+        },
+        "small": {
+          "name": "small_jammming.jpg",
+          "hash": "small_jammming_fe0f4a3051",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 339,
+          "size": 20.47,
+          "path": null,
+          "url": "/uploads/small_jammming_fe0f4a3051.jpg"
+        }
+      },
+      "hash": "jammming_fe0f4a3051",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "size": 29.84,
+      "url": "/uploads/jammming_fe0f4a3051.jpg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2021-01-14T11:41:44.983Z",
+      "updated_at": "2021-01-14T11:41:44.998Z"
+    }
+  },
+  {
+    "id": 14,
+    "title": "Vidly",
+    "description": "This video rental app is a decoupled frontend and backend project. Frontend was built with React and deployed on Vercel; backend was built with Node.js, Express and MongoDB, and was deployed on Heroku. Unit test and integration test were used for the Node.js app.",
+    "github": "https://github.com/XiaozhouCui/vidly-node",
+    "url": "https://vidly-sooty.vercel.app/",
+    "featured": false,
+    "slug": "vidly",
+    "published_at": "2021-02-02T11:08:10.663Z",
+    "created_at": "2021-02-02T11:08:08.135Z",
+    "updated_at": "2021-07-01T11:15:15.673Z",
+    "stack": [
+      { "id": 73, "title": "React" },
+      { "id": 75, "title": "Node.js" },
+      { "id": 76, "title": "Express" },
+      { "id": 77, "title": "MongoDB" },
+      { "id": 144, "title": "Jest" },
+      { "id": 145, "title": "SuperTest" }
+    ],
+    "image": {
+      "id": 17,
+      "name": "vidly.jpg",
+      "alternativeText": "",
+      "caption": "",
+      "width": 640,
+      "height": 466,
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_vidly.jpg",
+          "hash": "thumbnail_vidly_8b3966846a",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 214,
+          "height": 156,
+          "size": 5.8,
+          "path": null,
+          "url": "/uploads/thumbnail_vidly_8b3966846a.jpg"
+        },
+        "small": {
+          "name": "small_vidly.jpg",
+          "hash": "small_vidly_8b3966846a",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 364,
+          "size": 18.63,
+          "path": null,
+          "url": "/uploads/small_vidly_8b3966846a.jpg"
+        }
+      },
+      "hash": "vidly_8b3966846a",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "size": 25.82,
+      "url": "/uploads/vidly_8b3966846a.jpg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2021-02-02T11:07:09.218Z",
+      "updated_at": "2021-02-02T11:07:09.237Z"
+    }
+  },
+  {
+    "id": 15,
+    "title": "Email Client",
+    "description": "This Angular project provides the user interface of an email client. By calling 3rd party API endpoints, you can register new accounts and login. Once authenticated, you can send, receive and reply emails using your newly registered email address.",
+    "github": "https://github.com/XiaozhouCui/emailclient",
+    "url": "https://emailclient-peach.vercel.app/",
+    "featured": false,
+    "slug": "email-client",
+    "published_at": "2021-02-02T11:24:28.191Z",
+    "created_at": "2021-02-02T11:09:22.650Z",
+    "updated_at": "2021-06-30T06:48:35.163Z",
+    "stack": [
+      { "id": 78, "title": "Angular" },
+      { "id": 79, "title": "TypeScript" },
+      { "id": 80, "title": "RxJS" },
+      { "id": 81, "title": "Semantic-UI" }
+    ],
+    "image": {
+      "id": 4,
+      "name": "emailclient.jpg",
+      "alternativeText": "",
+      "caption": "",
+      "width": 640,
+      "height": 390,
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_emailclient.jpg",
+          "hash": "thumbnail_emailclient_9e69f9a722",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 245,
+          "height": 149,
+          "size": 3.98,
+          "path": null,
+          "url": "/uploads/thumbnail_emailclient_9e69f9a722.jpg"
+        },
+        "small": {
+          "name": "small_emailclient.jpg",
+          "hash": "small_emailclient_9e69f9a722",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 305,
+          "size": 10.34,
+          "path": null,
+          "url": "/uploads/small_emailclient_9e69f9a722.jpg"
+        }
+      },
+      "hash": "emailclient_9e69f9a722",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "size": 14.45,
+      "url": "/uploads/emailclient_9e69f9a722.jpg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2021-01-12T00:13:47.777Z",
+      "updated_at": "2021-01-12T00:13:47.794Z"
+    }
+  },
+  {
+    "id": 16,
+    "title": "My Messages",
+    "description": "This is a simple MEAN stack project. Users can register and login, and then post a message and upload an image. Only the post creators are authorised to edit or delete their own posts. Please note the uploaded image will not survive after the free Heroku host restarts.",
+    "github": "https://github.com/XiaozhouCui/mean-mymessages",
+    "url": "https://mymessages-mean.herokuapp.com/",
+    "featured": false,
+    "slug": "my-messages",
+    "published_at": "2021-02-02T11:14:27.509Z",
+    "created_at": "2021-02-02T11:14:25.723Z",
+    "updated_at": "2021-06-30T06:54:16.603Z",
+    "stack": [
+      { "id": 107, "title": "Angular" },
+      { "id": 110, "title": "TypeScript" },
+      { "id": 111, "title": "RxJS" },
+      { "id": 112, "title": "Node.js" },
+      { "id": 108, "title": "MongoDB" },
+      { "id": 109, "title": "JWT" }
+    ],
+    "image": {
+      "id": 18,
+      "name": "mymessages.jpg",
+      "alternativeText": "",
+      "caption": "",
+      "width": 1024,
+      "height": 575,
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_mymessages.jpg",
+          "hash": "thumbnail_mymessages_fd48efa54a",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 245,
+          "height": 138,
+          "size": 5.11,
+          "path": null,
+          "url": "/uploads/thumbnail_mymessages_fd48efa54a.jpg"
+        },
+        "large": {
+          "name": "large_mymessages.jpg",
+          "hash": "large_mymessages_fd48efa54a",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 1000,
+          "height": 562,
+          "size": 31.8,
+          "path": null,
+          "url": "/uploads/large_mymessages_fd48efa54a.jpg"
+        },
+        "medium": {
+          "name": "medium_mymessages.jpg",
+          "hash": "medium_mymessages_fd48efa54a",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 750,
+          "height": 421,
+          "size": 21.32,
+          "path": null,
+          "url": "/uploads/medium_mymessages_fd48efa54a.jpg"
+        },
+        "small": {
+          "name": "small_mymessages.jpg",
+          "hash": "small_mymessages_fd48efa54a",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 281,
+          "size": 12.5,
+          "path": null,
+          "url": "/uploads/small_mymessages_fd48efa54a.jpg"
+        }
+      },
+      "hash": "mymessages_fd48efa54a",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "size": 32.09,
+      "url": "/uploads/mymessages_fd48efa54a.jpg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2021-02-02T11:08:39.095Z",
+      "updated_at": "2021-02-02T11:08:39.113Z"
+    }
+  },
+  {
+    "id": 17,
+    "title": "Natours",
+    "description": "This big Node.js project has a MVC structure. It provides dozens of API endpoints to perform various operations. It uses SSR Pug pages to call its own APIs. Once authenticated, users can book new tours, pay with credit cards, and rank their booked tours, and upload photos. Stripe is integrated to handle payments, Mapbox is used for displaying geo-spatial data, while emails are sent via SendGrid and Node Mailer.",
+    "github": "https://github.com/XiaozhouCui/natours",
+    "url": "https://natours-joe.herokuapp.com/",
+    "featured": false,
+    "slug": "natours",
+    "published_at": "2021-02-02T11:23:34.802Z",
+    "created_at": "2021-02-02T11:23:32.521Z",
+    "updated_at": "2021-07-01T11:38:18.139Z",
+    "stack": [
+      { "id": 88, "title": "Node.js" },
+      { "id": 92, "title": "Express" },
+      { "id": 93, "title": "MongoDB" },
+      { "id": 94, "title": "PUG" },
+      { "id": 89, "title": "JWT" },
+      { "id": 90, "title": "Stripe" },
+      { "id": 91, "title": "Sendgrid" },
+      { "id": 146, "title": "MapBox" }
+    ],
+    "image": {
+      "id": 11,
+      "name": "natours.jpg",
+      "alternativeText": "",
+      "caption": "",
+      "width": 1767,
+      "height": 929,
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_natours.jpg",
+          "hash": "thumbnail_natours_277bad2e7d",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 245,
+          "height": 129,
+          "size": 5.32,
+          "path": null,
+          "url": "/uploads/thumbnail_natours_277bad2e7d.jpg"
+        },
+        "large": {
+          "name": "large_natours.jpg",
+          "hash": "large_natours_277bad2e7d",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 1000,
+          "height": 526,
+          "size": 41.79,
+          "path": null,
+          "url": "/uploads/large_natours_277bad2e7d.jpg"
+        },
+        "medium": {
+          "name": "medium_natours.jpg",
+          "hash": "medium_natours_277bad2e7d",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 750,
+          "height": 394,
+          "size": 26.71,
+          "path": null,
+          "url": "/uploads/medium_natours_277bad2e7d.jpg"
+        },
+        "small": {
+          "name": "small_natours.jpg",
+          "hash": "small_natours_277bad2e7d",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 263,
+          "size": 14.32,
+          "path": null,
+          "url": "/uploads/small_natours_277bad2e7d.jpg"
+        }
+      },
+      "hash": "natours_277bad2e7d",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "size": 96.91,
+      "url": "/uploads/natours_277bad2e7d.jpg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2021-01-14T10:21:31.178Z",
+      "updated_at": "2021-01-14T10:21:31.193Z"
+    }
+  },
+  {
+    "id": 18,
+    "title": "ProShop eCommerce",
+    "description": "A full-stack eCommerce web app. It has full featured shopping cart, stepped checkout, PayPal integration, product reviews and rating, order history and user profile. Admin user can manage products, update order status and upload images etc. React, Redux, React-Bootstrap are used on client side; Node.js and Express are used on server side; MongoDB is used to persist data.",
+    "github": "https://github.com/XiaozhouCui/proshop",
+    "url": "https://proshop888.herokuapp.com/",
+    "featured": true,
+    "slug": "pro-shop-e-commerce",
+    "published_at": "2021-02-02T11:34:13.934Z",
+    "created_at": "2021-02-02T11:34:11.150Z",
+    "updated_at": "2021-07-01T11:51:51.259Z",
+    "stack": [
+      { "id": 95, "title": "React" },
+      { "id": 98, "title": "Node.js" },
+      { "id": 96, "title": "Redux" },
+      { "id": 99, "title": "Express" },
+      { "id": 100, "title": "MongoDB" },
+      { "id": 97, "title": "Bootstrap" }
+    ],
+    "image": {
+      "id": 10,
+      "name": "proshop.jpg",
+      "alternativeText": "",
+      "caption": "",
+      "width": 1267,
+      "height": 937,
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_proshop.jpg",
+          "hash": "thumbnail_proshop_f428a1373c",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 211,
+          "height": 156,
+          "size": 5.43,
+          "path": null,
+          "url": "/uploads/thumbnail_proshop_f428a1373c.jpg"
+        },
+        "large": {
+          "name": "large_proshop.jpg",
+          "hash": "large_proshop_f428a1373c",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 1000,
+          "height": 740,
+          "size": 50.94,
+          "path": null,
+          "url": "/uploads/large_proshop_f428a1373c.jpg"
+        },
+        "medium": {
+          "name": "medium_proshop.jpg",
+          "hash": "medium_proshop_f428a1373c",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 750,
+          "height": 555,
+          "size": 33.57,
+          "path": null,
+          "url": "/uploads/medium_proshop_f428a1373c.jpg"
+        },
+        "small": {
+          "name": "small_proshop.jpg",
+          "hash": "small_proshop_f428a1373c",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 370,
+          "size": 19.32,
+          "path": null,
+          "url": "/uploads/small_proshop_f428a1373c.jpg"
+        }
+      },
+      "hash": "proshop_f428a1373c",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "size": 69.97,
+      "url": "/uploads/proshop_f428a1373c.jpg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2021-01-14T10:21:02.692Z",
+      "updated_at": "2021-01-14T10:21:02.713Z"
+    }
+  },
+  {
+    "id": 19,
+    "title": "My Forum",
+    "description": "This is my personal message board. You can login and leave a message in a forum, and reply to other user's message. Next.js is used for SSR and SSG. Apollo-client and Apollo-server are used to handle GraphQL queries on frontend and backend respectively. Sessions stored in MongoDB are used for authentication.",
+    "github": "https://github.com/XiaozhouCui/nextjs-portfolio",
+    "url": "https://next-gql-portfolio.herokuapp.com/",
+    "featured": false,
+    "slug": "my-forum",
+    "published_at": "2021-02-02T11:36:44.281Z",
+    "created_at": "2021-02-02T11:36:42.506Z",
+    "updated_at": "2021-06-30T06:53:54.300Z",
+    "stack": [
+      { "id": 101, "title": "Next.js" },
+      { "id": 104, "title": "Apollo" },
+      { "id": 105, "title": "GraphQL" },
+      { "id": 106, "title": "Node.js" },
+      { "id": 102, "title": "MongoDB" },
+      { "id": 103, "title": "Sessions" }
+    ],
+    "image": {
+      "id": 19,
+      "name": "portfolio.jpg",
+      "alternativeText": "",
+      "caption": "",
+      "width": 640,
+      "height": 474,
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_portfolio.jpg",
+          "hash": "thumbnail_portfolio_2dda2637f2",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 211,
+          "height": 156,
+          "size": 4.31,
+          "path": null,
+          "url": "/uploads/thumbnail_portfolio_2dda2637f2.jpg"
+        },
+        "small": {
+          "name": "small_portfolio.jpg",
+          "hash": "small_portfolio_2dda2637f2",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 370,
+          "size": 19.6,
+          "path": null,
+          "url": "/uploads/small_portfolio_2dda2637f2.jpg"
+        }
+      },
+      "hash": "portfolio_2dda2637f2",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "size": 29.86,
+      "url": "/uploads/portfolio_2dda2637f2.jpg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2021-02-02T11:10:45.208Z",
+      "updated_at": "2021-02-02T11:10:45.226Z"
+    }
+  },
+  {
+    "id": 20,
+    "title": "Auction House",
+    "description": "This serverless app is built with AWS CloudFormation. Sellers can create an auction and upload pictures, bidders can place bids by adding price. Once an auction is closed, emails will be sent to the seller and the winning bidder. A scheduled function is running periodically to check and close any ended auctions.",
+    "github": "https://github.com/XiaozhouCui/serverless-auction",
+    "url": "https://nifty-mclean-1342b9.netlify.app",
+    "featured": false,
+    "slug": "auction-house",
+    "published_at": "2021-02-02T11:41:38.069Z",
+    "created_at": "2021-02-02T11:41:36.267Z",
+    "updated_at": "2021-06-30T07:05:33.554Z",
+    "stack": [
+      { "id": 113, "title": "Serverless" },
+      { "id": 119, "title": "AWS-SDK" },
+      { "id": 120, "title": "Lambda" },
+      { "id": 121, "title": "API Gateway" },
+      { "id": 114, "title": "DynamoDB" },
+      { "id": 115, "title": "SQS" },
+      { "id": 116, "title": "SES" },
+      { "id": 117, "title": "S3" },
+      { "id": 118, "title": "React" }
+    ],
+    "image": {
+      "id": 20,
+      "name": "auction.jpg",
+      "alternativeText": "",
+      "caption": "",
+      "width": 640,
+      "height": 406,
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_auction.jpg",
+          "hash": "thumbnail_auction_3b6834c6ab",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 245,
+          "height": 155,
+          "size": 5.56,
+          "path": null,
+          "url": "/uploads/thumbnail_auction_3b6834c6ab.jpg"
+        },
+        "small": {
+          "name": "small_auction.jpg",
+          "hash": "small_auction_3b6834c6ab",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 317,
+          "size": 13.92,
+          "path": null,
+          "url": "/uploads/small_auction_3b6834c6ab.jpg"
+        }
+      },
+      "hash": "auction_3b6834c6ab",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "size": 18.37,
+      "url": "/uploads/auction_3b6834c6ab.jpg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2021-02-02T11:40:16.200Z",
+      "updated_at": "2021-02-02T11:40:16.219Z"
+    }
+  },
+  {
+    "id": 21,
+    "title": "JBook",
+    "description": "This app is a browser-based interactive coding environment, similar to CodePen. In the code editing fields, you can write JavaScript and JSX. The code you entered will be compiled and bundled in browser, and then rendered in the preview field. You can also write comprehensive documentation using markdown. This project is also deployed on npm, enter \"npx jsnote-joe serve\" in your terminal to run it locally and persist your code. ",
+    "github": "https://github.com/XiaozhouCui/jbook",
+    "url": "https://jbook-joe.netlify.app/",
+    "featured": true,
+    "slug": "j-book",
+    "published_at": "2021-02-16T11:03:51.530Z",
+    "created_at": "2021-02-16T11:03:43.470Z",
+    "updated_at": "2021-07-01T11:35:17.301Z",
+    "stack": [
+      { "id": 122, "title": "React" },
+      { "id": 123, "title": "TypeScript" },
+      { "id": 124, "title": "Redux" },
+      { "id": 125, "title": "esbuild" }
+    ],
+    "image": {
+      "id": 21,
+      "name": "jbook.jpg",
+      "alternativeText": "",
+      "caption": "",
+      "width": 800,
+      "height": 519,
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_jbook.jpg",
+          "hash": "thumbnail_jbook_021826b2d1",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 240,
+          "height": 156,
+          "size": 5.22,
+          "path": null,
+          "url": "/uploads/thumbnail_jbook_021826b2d1.jpg"
+        },
+        "medium": {
+          "name": "medium_jbook.jpg",
+          "hash": "medium_jbook_021826b2d1",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 750,
+          "height": 487,
+          "size": 33.32,
+          "path": null,
+          "url": "/uploads/medium_jbook_021826b2d1.jpg"
+        },
+        "small": {
+          "name": "small_jbook.jpg",
+          "hash": "small_jbook_021826b2d1",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 324,
+          "size": 17.1,
+          "path": null,
+          "url": "/uploads/small_jbook_021826b2d1.jpg"
+        }
+      },
+      "hash": "jbook_021826b2d1",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "size": 38.39,
+      "url": "/uploads/jbook_021826b2d1.jpg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2021-02-16T10:59:21.228Z",
+      "updated_at": "2021-02-16T10:59:21.249Z"
+    }
+  },
+  {
+    "id": 22,
+    "title": "Reactivities",
+    "description": "Built with .NET and React (TypeScript), this full-stack project is a social network application. Once authenticated, users can create and manage social activities (music, food, travel etc.), follow other users, join activities or cancel attendance, browse and filter activities with infinite scrolling, make real-time chat (SignalR) under an activity, crop photos and upload to Cloudinary.",
+    "github": "https://github.com/XiaozhouCui/reactivity",
+    "url": "https://reactivities88.herokuapp.com/",
+    "featured": true,
+    "slug": "reactivities",
+    "published_at": "2021-06-30T12:46:03.478Z",
+    "created_at": "2021-06-30T12:46:01.244Z",
+    "updated_at": "2021-07-01T07:00:46.540Z",
+    "stack": [
+      { "id": 128, "title": ".NET" },
+      { "id": 129, "title": "Entity Framework" },
+      { "id": 131, "title": "React" },
+      { "id": 132, "title": "TypeScript" },
+      { "id": 133, "title": "MobX" },
+      { "id": 136, "title": "PostgreSQL" },
+      { "id": 137, "title": "Mediator" },
+      { "id": 138, "title": "REST API" },
+      { "id": 130, "title": "SignalR" },
+      { "id": 134, "title": "Semantic UI" },
+      { "id": 135, "title": "JWT" },
+      { "id": 143, "title": "Cloudinary" }
+    ],
+    "image": {
+      "id": 24,
+      "name": "reactivities.jpg",
+      "alternativeText": "",
+      "caption": "",
+      "width": 1260,
+      "height": 904,
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_reactivities.jpg",
+          "hash": "thumbnail_reactivities_747baa220a",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 217,
+          "height": 156,
+          "size": 5.88,
+          "path": null,
+          "url": "/uploads/thumbnail_reactivities_747baa220a.jpg"
+        },
+        "large": {
+          "name": "large_reactivities.jpg",
+          "hash": "large_reactivities_747baa220a",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 1000,
+          "height": 717,
+          "size": 56.33,
+          "path": null,
+          "url": "/uploads/large_reactivities_747baa220a.jpg"
+        },
+        "medium": {
+          "name": "medium_reactivities.jpg",
+          "hash": "medium_reactivities_747baa220a",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 750,
+          "height": 538,
+          "size": 37.4,
+          "path": null,
+          "url": "/uploads/medium_reactivities_747baa220a.jpg"
+        },
+        "small": {
+          "name": "small_reactivities.jpg",
+          "hash": "small_reactivities_747baa220a",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 359,
+          "size": 20.54,
+          "path": null,
+          "url": "/uploads/small_reactivities_747baa220a.jpg"
+        }
+      },
+      "hash": "reactivities_747baa220a",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "size": 76.53,
+      "url": "/uploads/reactivities_747baa220a.jpg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2021-06-30T13:01:09.360Z",
+      "updated_at": "2021-06-30T13:01:09.377Z"
+    }
   }
 ]
