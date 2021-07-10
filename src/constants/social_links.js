@@ -11,7 +11,7 @@ const data = [
   {
     id: 1,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: "https://www.linkedin.com/in/xiaozhou-joe-cui-9744a535/",
+    url: "https://www.linkedin.com/in/xiaozhou-cui",
   },
   {
     id: 2,

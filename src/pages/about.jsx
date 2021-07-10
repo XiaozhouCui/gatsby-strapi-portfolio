@@ -20,20 +20,9 @@ const About = ({ data }) => {
           />
           <article className='about-text'>
             <Title title={title} />
-            <p>
-              I am a full stack developer and AWS Certified Solutions Architec -
-              Associate, with 3 years of commercial experience.
-            </p>
-            <p>
-              My recent projects mainly focus on React and Node.js, I am also
-              familiar with .NET and Angular. I spend most of my spare time
-              learning new technologies and industry best practices.
-            </p>
-            <p>
-              As a career changer, I had worked in the oil and gas industry for
-              more than 8 years as a professional engineer, and developed very
-              strong problem solving skills.
-            </p>
+            <p>I am a passionate full stack developer with nearly 3 years of commercial experience in web development, I am also an AWS Certified Solutions Architect - Associate.</p>
+            <p>I have extensive experience in React and Node.js, with growing exposure to C# and .NET. I always keep learning new technologies and industry best practices.</p>
+            <p>As a former process engineer, I worked in the oil and gas industry for over 8 years, and developed very strong problem-solving skills.</p>
             <div className='about-stack'>
               {stack.map(item => {
                 return <span key={item.id}>{item.title}</span>
