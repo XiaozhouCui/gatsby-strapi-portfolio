@@ -11,7 +11,7 @@ module.exports = {
     title: `Joe's Portfolio`,
     description: `Awesome portfolio built with Gatsby and Strapi`,
     titleTemplate: `%s | Joe's Portfolio`,
-    url: `https://joe-portfolio-gatsby.netlify.app`,
+    url: `https://joe-cui.com`,
     twitterUsername: `@Joe_Cui`,
     image: `/mainImg.png`,
   },
