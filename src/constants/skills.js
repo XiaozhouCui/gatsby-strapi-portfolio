@@ -11,13 +11,13 @@ const services = [
     id: 2,
     icon: <FaServer className='service-icon' />,
     title: 'backend development',
-    text: `Node.js, Express, Mongoose, NestJS, TypeORM .NET 5, Entity Framework, SQL, MongoDB, REST API, JWT, SendGrid`,
+    text: `Node.js, Lambda, Express, Sequelize, Mongoose, NestJS, TypeORM, C#/.NET, Entity Framework, SQL, NoSQL, REST API, JWT, Python`,
   },
   {
     id: 3,
     icon: <FaCloud className='service-icon' />,
-    title: 'cloud services',
-    text: `AWS Certified SAA, EC2, ALB, ASG, S3, RDS, Elastic Beanstalk, Route 53, Cloudfront, CloudFormation, Lambda, DynamoDB, ECS`,
+    title: 'DevOps',
+    text: `AWS Certified SAA, BuildKite, GitHub Actions, Pulumi, Serverless Framework, AWS-CDK, Docker, DataDog, Sentry, Linux`,
   },
 ]
 
